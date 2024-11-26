@@ -1,27 +1,5 @@
-Lecture 5/1.exe
-Lecture 6/1.exe
-Lecture 6/2.exe
 .vscode/settings.json
 .vscode/tasks.json
-Lecture 10/1.exe
-Lecture 10/2.exe
-Lecture 10/3.exe
-Lecture 10/4.exe
-Lecture 9/1.exe
-Lecture 9/2.exe
-Lecture 9/3.exe
-Lecture 11/1.exe
-Lecture 11/2.exe
-Lecture 11/3.exe
-Lecture 11/4.exe
-Lecture 11/5.exe
-Lecture 11/6.exe
-Lecture 12/1.exe
-Lecture 12/2.exe
-Lecture 12/3.exe
-Lecture 12/4.exe
-Lecture 13/1.exe
-Lecture 14/1.exe
-Lecture 14/2.exe
-Lecture 14/3.exe
-Lecture 14/4.exe
+*/*.exe
+*/*/*.exe
+*/*/*/*.exe

@@ -13,6 +13,9 @@ int main() {
 
     d.b = 3.14;  
     cout << "Float value: " << d.b << endl;  
+    
+    // cout << "Int value: " << d.a << endl;  
+
 
     return 0;  
 }  
