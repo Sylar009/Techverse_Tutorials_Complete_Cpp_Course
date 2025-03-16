@@ -1,19 +1,27 @@
-#include <iostream>
-using namespace std;
+#include <stdio.h>
+#include <stdlib.h>
 
 int main() {
-    int* array = new int[5];
-
-    for (int i = 0; i < 5; i++) {
-        array[i] = i + 1;
+    int *arr;
+    int size, i;
+    
+    size = 5;
+    arr = (int*)calloc(size, sizeof(int));
+    if (arr == NULL) {
+        printf("Memory allocation failed!\n");
+        return 1;
     }
-
-    cout << "Array elements: ";
-    for (int i = 0; i < 5; i++) {
-        cout << array[i] << " ";
+    
+    printf("Memory allocated successfully using calloc.\n");
+    for (i = 0; i < size; i++) {
+        arr[i] = i + 1;
     }
-    cout << endl;
-
-    delete[] array;  // Free the memory allocated for the array
+    
+    printf("Array elements: ");
+    for (i = 0; i < size; i++) {
+        printf("%d ", arr[i]);
+    }
+    
+    free(arr);
     return 0;
 }
